@@ -1,1 +1,225 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+p{
+    font-weight: 500;
+}
+
+/*...................header section..................*/
+
+.header{
+    min-height: 95vh;
+    background-color: #F0FFF0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 3vh;
+}
+
+.logo{
+    width: 220px;
+}
+.green-button{
+    background-color: #21B573;
+    color: white;
+    font-weight:500;
+    padding: 7px 25px;
+    border-radius: 20px;
+}
+
+.text-dark{
+    font-weight:500;
+    margin-right: 30px;
+}
+
+/*......................intro-section....................*/
+.intro-section{
+    padding-top: 90px;
+}
+
+.photo-size{
+    width: 390px;
+    margin-right: 20px;
+}
+
+.content-section{
+    padding-right: 30px;
+}
+
+.highlight{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+.green-color{
+    color: #21B573;
+}
+
+.text{
+    color: #6C6B6B;
+    padding-bottom: 15px; 
+    line-height: 34px;
+}
+
+.intro-section .green-button{
+    width: 140px;
+}
+
+/*................achivment section..................*/
+
+.achivment{
+    min-height: 70vh;
+    padding-top: 40px;
+}
+
+.achivment .card{
+    width: 250px;
+    height: 250px; 
+    padding-top: 20%; 
+    border: none;
+    background-color: #F0FFF0;
+    border:2px solid rgb(216, 216, 216);
+    border-radius: 20px;
+}
+
+.achivment .card:hover{
+    transform: scale(1.08);
+    transition: transform .5s;
+}
+
+.achivment img{
+    width: 80px;
+    height: 90px;
+}
+
+.achivment .card-body{
+    text-align: center;
+}
+
+/*...........online courses styling............*/
+
+.courses{
+    margin-bottom: 70px;
+}
+
+.card-title-special{
+    padding: 0;
+}
+
+.card-text-special{
+    color: #757474;
+    font-weight: 400;
+}
+
+h2{
+    font-size: bold;
+    font-weight: 700;
+    text-align: center;
+    color: #413960;
+}
+
+.card{
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.courses .card{
+    border: none;
+    box-shadow: 2px 2px 30px #E5E5E5;
+    border-radius: 20px;
+}
+
+.tiny-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.card button{
+    margin-bottom: 28px;
+    width: max-content;
+}
+
+.courses img:not(.tiny-icon){
+    width: 320px;
+    height: 234px;
+    padding-top: 18px;   
+}
+
+.special-thing p{
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+      .special-container{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .sub-container{
+            display: flex;
+        }
+
+        .seats{
+            margin-left: auto;
+        }
+
+
+/*............testimonial styling.................*/
+
+.Testimonial{
+    height: 50vh;
+}
+
+.Testimonial img{
+    width: 120px;
+    height: 120px;
+}
+
+.sub-heading{
+    padding-bottom: 50px;
+}
+
+.width{
+    width: 75%;
+}
+
+.space{
+    padding-left: 40px;
+}
+
+/*...........footer styling............*/
+footer{
+    min-height: 50vh;
+    background-color: #282531;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
+}
+
+li, .li{
+    list-style: none;
+    font-weight: 300;
+}
+
+h5{
+    padding-left: 30px;
+}
+
+footer div, small{
+    color: white;
+}
+
+.last-line{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+
